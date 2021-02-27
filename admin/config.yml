@@ -7,7 +7,22 @@ backend:
 
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
+logo_url: https://www.tinyrockets.co.uk/wp-content/uploads/2021/01/tr-logo.svg
+
 collections:
+  # Page sections
+  - label: "Sections"
+    name: "sections"
+    files:
+      - label: "Hero"
+        name: "hero"
+        file: "_data/hero.json"
+        fields:
+          - {label: Headline, name: headline, widget: string}
+          - {label: Strapline, name: subheader, widget: string}
+          - {label: Background Image, name: background_image, widget: image}
+          - {label: Background Video, name: background_video, widget: string}
+
   # Our blog posts
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
