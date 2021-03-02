@@ -1,0 +1,36 @@
+{
+  "title": "WE CAN HELP YOU WITH",
+  "servicesList": [
+    {
+      "title": "Mini Courses",
+      "text": "Our mini courses are designed to educate you about different financial planning areas that we were not taught at school, college or university. You can choose from, investing, pensions, becoming self-employed, soletrader vs limited company taxation and many more. ",
+      "image": "/static/img/jk-finances-min.png"
+    },
+    {
+      "title": "Making And Keeping To A Budget",
+      "text": "One for all of the family our most popular course on how to budget your money over different timeframes and allocating your money. Also including what to do when life gets in the way and makes a mess of your plans. ",
+      "image": "/static/img/jk-square4-min.png"
+    },
+    {
+      "title": "121 Financial Coaching",
+      "text": " For those needing a helping hand, someone to talk it through with and possibly a nudge in the right direction our 121 financial coaching can help.\n\nEach session in a two step process where you get an initial 15 minute call to tell me about where you are and the one thing that you want to discuss, followed up by a one hour session where we put together a plan of how you can make progress. Then you can book further sessions as needed. ",
+      "image": "/static/img/jk-square5-min.png"
+    },
+    {
+      "title": "Putting Together A Financial Plan",
+      "text": " This is a 121 session for those who are looking further into the future and are wanting to assess their retirement plans however these may be structured.\n\nYou will receive a full cashflow report showing where you are currently and what you need to look at building into the future to achieve your goals. ",
+      "image": "/static/img/jk-square6-min.png"
+    },
+    {
+      "title": "Budgeting Journal And Tracker",
+      "text": "We designed this journal to guide you through setting a budget and keeping to it. ",
+      "image": "/static/img/jk-square3-min.png"
+    },
+    {
+      "title": "Unfudge Your Finances Planner And Diary",
+      "text": "If you are serious about understanding and tracking your finances this is the planner for you. This undated planner allows you to track your finances and financial goals over four periods of 90 days with hints and tips along the way.",
+      "image": "/static/img/jk-square1-min.png"
+    }
+  ]
+}
+

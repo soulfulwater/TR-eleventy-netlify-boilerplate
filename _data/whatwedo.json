@@ -1,0 +1,29 @@
+{
+  "title": "HOW WE CAN HELP",
+  "leadingText": "Our mission is to help you achieve the confidence that your families futures are built on financially sound foundations.<br/><br/>Our advice, education resources and coaching focuses around three main areas:",
+  "image": "/static/img/jk-finances-min.png",
+  "infoList": [
+    {
+      "icon":"fa-check",
+      "title": "Preparation",
+      "text": "Giving you confidence with your financial foundations of budgeting, building an emergency fund and having a plan to pay off debts that you hold."
+    
+    },
+    {
+      "icon":"fa-check",
+      "title": "Protection",
+      "text": "Understanding the threats faced by your family if you were unable to work or were no longer there and importantly how you can protect against these."
+    
+    },
+    {
+      "icon":"fa-check",
+      "title": "Planning",
+      "text": "Building plans to achieve your financial goals no matter what they may be."
+    
+    }
+  ],
+  "cta": {
+    "text": "BOOK A FREE CALL",
+    "link":"#"
+  }
+}

@@ -22,6 +22,16 @@ collections:
           - {label: Strapline, name: subheader, widget: string}
           - {label: Background Image, name: background_image, widget: image}
           - {label: Background Video, name: background_video, widget: string}
+      - label: "Benefits"
+        name: "benefits"
+        file: "_data/benefits.json"
+        fields:
+          - label: "Benefit 1"
+            name: "b1"
+            widget: "object"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Text", name: "textBlock", widget: "string" }
 
   # Our blog posts
   - name: "blog" # Used in routes, e.g., /admin/collections/blog

@@ -1,0 +1,29 @@
+{
+  "menuList": [
+    {
+      "text": "How we can help",
+      "link": "#what-we-do",
+      "order": 0
+    },
+    {
+      "text": "About",
+      "link": "#about",
+      "order": 1
+    },
+    {
+      "text": "Our Services",
+      "link": "#services",
+      "order": 2
+    },
+    {
+      "text": "Testimonials",
+      "link": "#testimonials",
+      "order": 3
+    }
+  ],
+  "button": {
+    "icon": "fa-calendar-alt",
+    "text": "Book a free call",
+    "link": "https://calendly.com/katherinerowellifa"
+  }
+}

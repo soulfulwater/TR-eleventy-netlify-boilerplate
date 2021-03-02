@@ -1,5 +1,26 @@
 {
-  "benefit1": "",
-  "benefit2": "",
-  "benefit3": ""
+  "b1": {
+    "icon": "fa-long-arrow-alt-down",
+    "textBlock": "Are you looking to be ready for your first or next mortgage?",
+    "cta": {
+      "text": "Download our guide here.",
+      "link": "#"
+      }
+    },
+    "b2": {
+      "icon": "fa-long-arrow-alt-down",
+      "textBlock": "Confused about the sort of insurance you need to protect you and your loved ones?",
+      "cta": {
+        "text": "Download our guide here.",
+        "link": "#"
+        }
+      },
+      "b3": {
+        "icon": "fa-long-arrow-alt-down",
+        "textBlock": "Wondering when you’ll be able to retire?",
+        "cta": {
+          "text": "Download our guide here.",
+          "link": "#"
+          }
+        }
 }

@@ -1,8 +1,9 @@
 {
-  "logo": "",
+  "businessName": "My Family Finances",
+  "logo": "/static/img/logo-min.png",
   "primary_colour": "",
   "secondary_colour": "",
   "tertiary_colour": "",
-  "form_id": ""
-
+  "year": "2021",
+  "formUrl": "https://submit-form.com/ZEumD8BK"
 }
