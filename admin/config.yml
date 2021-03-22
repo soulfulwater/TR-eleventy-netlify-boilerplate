@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+local_backend: true
+
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
 
@@ -32,6 +34,18 @@ collections:
             fields:
               - { label: "Icon", name: "icon", widget: "string" }
               - { label: "Text", name: "textBlock", widget: "string" }
+          - label: "Benefit 2"
+            name: "b2"
+            widget: "object"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Text", name: "textBlock", widget: "string" }
+          - label: "Benefit 3"
+            name: "b3"
+            widget: "object"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Text", name: "textBlock", widget: "string" }
 
   # Our blog posts
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -46,20 +60,22 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
-  # Our pages e.g. About
-  - name: "pages"
-    label: "Page"
-    folder: "pages"
-    create: false # Change to true to allow editors to create new pages
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-        name: "eleventyNavigation"
-        widget: "object"
-        fields:
-          - { label: "Key", name: "key", widget: "string" }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
-      - { label: "Body", name: "body", widget: "markdown" }
+
+
+#  # Our pages e.g. About
+#  - name: "pages"
+#    label: "Page"
+#    folder: "pages"
+#    create: false # Change to true to allow editors to create new pages
+#    slug: "{{slug}}"
+#    fields:
+#      - { label: "Title", name: "title", widget: "string" }
+#      - { label: "Publish Date", name: "date", widget: "datetime" }
+#      - { label: "Permalink", name: "permalink", widget: "string" }
+#      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+#        name: "eleventyNavigation"
+#        widget: "object"
+#        fields:
+#          - { label: "Key", name: "key", widget: "string" }
+#          - { label: "Order", name: "order", widget: "number", default: 0 }
+#      - { label: "Body", name: "body", widget: "markdown" }
